@@ -7,13 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-a{
-    color: #333;
-}
-a:hover{
-    color: crimson;
-    text-decoration: underline;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -514,6 +508,13 @@ section .title {
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
+}
+.sub-title .social{
+    color: #333;
+}
+.sub-title .social:hover{
+    color: crimson;
+    text-decoration: underline;
 }
 .contact .contact-content .row{
      display: flex;
