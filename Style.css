@@ -7,6 +7,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+a{
+    color: #333;
+}
+a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -161,7 +168,7 @@ section {
     padding: 100px 0;
 }
 
-.about, .services, .skills, .teams , .contact, footer{
+.about, .services, .skills, .project , .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -260,16 +267,16 @@ section .title {
         }
 
 /* service section styling */
-.services, .teams {
+.services, .project {
     color: white;
     background-color: black;
 }
 
-    .services .title::before, .teams .title::before {
+    .services .title::before, .project .title::before {
         background-color: white;
     }
 
-    .services .title::after, .teams .title::after {
+    .services .title::after, .project .title::after {
         background-color: black;
         content: "what i provide";
     }
@@ -291,6 +298,7 @@ section .title {
 
         .services .serv-content .card .box {
             transition: all 0.3s ease;
+            text-align: center;
         }
 
         .services .serv-content .card:hover {
@@ -420,20 +428,20 @@ section .title {
 }
 
 /* Team Section Styling*/
-.teams .title::after {
-    content: "who with me";
+.project .title::after {
+    content: "what i did";
 }
 
-.teams .carousel .card {
+.project .carousel .card {
     background-color: #222;
     border-radius: 6px;
     padding: 25px 35px;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover {
+.project .carousel .card:hover {
         background-color: crimson;
 }
-.teams .carousel .card .box {
+.project .carousel .card .box {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -441,24 +449,22 @@ section .title {
         text-align: center;
         transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.project .carousel .card:hover .box{
         transform: scale(1.05);
 }
-.teams .carousel .card .text {
+.project .carousel .card .text {
         font-size: 25px;
         font-weight: 500;
         margin-bottom: 10px 0 7px 0;
 }
-.teams .carousel .card img {
+.project .carousel .card img {
         height: 150px;
         width: 150px;
         object-fit: cover;
-        border-radius: 50%;
-        border: 4px solid crimson;
         transition: all 0.3s ease;
     }
 
-    .teams .carousel .card:hover img {
+    .project .carousel .card:hover img {
         border-color: white;
     }
 .owl-dots{
