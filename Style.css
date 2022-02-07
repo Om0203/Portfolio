@@ -163,7 +163,7 @@ html{
 
 
 
-/* All similar content styling code */
+
 section {
     padding: 100px 0;
 }
@@ -213,7 +213,7 @@ section .title {
     }
 
 
-/* About section styling */
+
 
 
 .about .title::after {
@@ -266,7 +266,9 @@ section .title {
             background-color: white;
         }
 
-/* service section styling */
+
+
+
 .services, .project {
     color: white;
     background-color: black;
@@ -322,7 +324,10 @@ section .title {
             margin: 10px 0 7px 0;
         }
 
-/* skills section styling */
+
+
+
+
 .skills .title::after {
     content: "what i know";
 }
@@ -427,7 +432,9 @@ section .title {
     width: 50%;
 }
 
-/* Team Section Styling*/
+
+
+
 .project .title::after {
     content: "what i did";
 }
@@ -488,7 +495,9 @@ section .title {
      background-color: crimson!important;
  }
 
-/* Contact section styling */
+
+
+
 .contact .title::after{
     content: "get in touch";
 }
@@ -577,7 +586,9 @@ section .title {
     background: none;
 }
 
-/*footer section styling  */
+
+
+
 footer{
     background-color: black;
     padding: 20px 23px;
